@@ -1,0 +1,47 @@
+/* Custom Ant Steps styling */
+.custom-steps .ant-steps-item-icon {
+  background-color: #ffffff !important;
+  border: 1px solid #d0d5dd !important;
+}
+
+.custom-steps .ant-steps-item-finish .ant-steps-item-icon {
+  background-color: #0098a5 !important;
+  border-color: #0098a5 !important;
+}
+
+:where(.css-dev-only-do-not-override-nqoqt9).ant-steps
+  .ant-steps-item-finish
+  > .ant-steps-item-container
+  > .ant-steps-item-tail::after {
+  background-color: #0098a5;
+  height: 3px;
+  border-radius: 3px;
+}
+
+:where(.css-dev-only-do-not-override-nqoqt9).ant-steps
+  .ant-steps-item-process
+  > .ant-steps-item-container
+  > .ant-steps-item-tail::after {
+  border-top: 5px dashed #d0d5dd;
+  height: 3px;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+:where(.css-dev-only-do-not-override-nqoqt9).ant-steps
+  .ant-steps-item-wait
+  > .ant-steps-item-container
+  > .ant-steps-item-tail::after {
+  border-top: 5px dashed #d0d5dd;
+  height: 3px;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.custom-steps .ant-steps-item-finish .ant-steps-icon {
+  color: #ffffff !important;
+}
+
+.custom-steps .ant-steps-item-wait .ant-steps-item-icon > .ant-steps-icon {
+  color: #ffffff !important;
+}

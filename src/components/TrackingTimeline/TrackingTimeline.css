@@ -1,0 +1,15 @@
+/* Custom Ant Steps styling */
+.custom-timeline .ant-timeline-item-tail {
+  border-left: 3px solid #e4e7ec !important;
+  border-radius: 3px !important;
+  top: 14px !important;
+  bottom: 3px !important;
+  height: auto !important;
+}
+
+.custom-timeline .ant-timeline-item-head {
+  width: 12px !important;
+  height: 12px !important;
+  background-color: #d0d5dd !important;
+  border-color: #d0d5dd !important;
+}
